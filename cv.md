@@ -30,6 +30,17 @@ I’m enthusiastic and self-motivated person. I’m fond of  developing and self
 I have 1 year experience in educational projects.  You can find some of them here [https://github.com/Anastasiya1982](https://github.com/Anastasiya1982)
 
 ------
+### My code example
+const array = [1, 2, 3, 4, 5, 6];
+function counter(forArray) {
+    if(forArray.length !== 0) {
+        forArray.shift();
+        return 1 + counter(forArray);
+    } else {
+        return 0;
+    }
+}
+console.log(counter(array));
 ### Languages 
 
 English : B1
