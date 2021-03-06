@@ -50,6 +50,7 @@ var encryptThis = function(text) {
 ### Languages 
 
 English : B1
+I improve my level by taking lessons with native English  speaker
 
 ------
 ### Education
