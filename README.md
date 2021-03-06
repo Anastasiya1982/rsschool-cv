@@ -1,2 +1,2 @@
 https://anastasiya1982.github.io/rsschool-cv/cv
-https://anastasiya1982.github.io/rsschool-cv/
+you can see the deploy version on   https://anastasiya1982.github.io/rsschool-cv/
