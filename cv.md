@@ -31,16 +31,22 @@ I have 1 year experience in educational projects.  You can find some of them her
 
 ------
 ### My code example
-const array = [1, 2, 3, 4, 5, 6];
-function counter(forArray) {
-    if(forArray.length !== 0) {
-        forArray.shift();
-        return 1 + counter(forArray);
-    } else {
-        return 0;
-    }
+```
+var encryptThis = function(text) {
+  return text.split(' ').map(item => {
+    let num = item.charCodeAt(0)
+    return item.replace(/^\w/, num)
+  }).map(item => {
+    let numbers = item.match(/\d/g).join('')
+    let letters = item.match(/\D/g) || []
+    let firstLetter = letters[0]
+    let lastLetter = letters[letters.length - 1]
+    letters[0] = lastLetter
+    letters[letters.length - 1] = firstLetter
+    return numbers + letters.join('')
+  }).join(' ')
 }
-console.log(counter(array));
+```
 ### Languages 
 
 English : B1
